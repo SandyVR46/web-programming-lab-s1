@@ -1,0 +1,57 @@
+
+
+h1{
+font-family: 'Allura', cursive;
+padding-top:200px;
+}
+
+.intro{
+background-image: linear-gradient(rgba(0, 0, 0, 0.44),rgba(0, 0, 0, 0.5)) , url('backgroundimage.jpeg');
+background-position: center;
+background-size: cover;
+width:100%;
+height:100%;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menulist{
+  margin: auto;
+  
+  width: 50%;
+  border: 3px solid green;
+  padding: 70px;
+}
+
+.menulist ul{
+color:white;
+align-items: center;
+}
+
+.menulist h3{
+color:#fff;
+align-content:center;
+}
+
+address{
+font-family: 'Estonia', cursive;
+font-size:15px;
+}
