@@ -1,0 +1,33 @@
+
+
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  background:#b2bec3;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button{
+  width: 150px;
+  height: 60px;
+  border-radius: 20px;
+  background: #eee;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  transition: 0.5s;
+  transition: 0.5s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover{
+  background:#03a1ff;
+  color:#fff;
+  border-radius: 20px;
+  box-shadow: none;
+}
