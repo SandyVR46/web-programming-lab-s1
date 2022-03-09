@@ -1,0 +1,27 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+</head>  
+<body style = "color:blueviolet;text-align : center; font-size: 30px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">  
+<marquee> WELCOME TO THE WORLD OF JAVASCRIPT !!! </marquee>  
+Enter a number: <textarea id = "num">  </textarea>
+<br><br>  
+<button onclick = "fact();"> Factorial </button>  
+<p id = "paragra">Hello</p>  
+<script>  
+function fact(){  
+var i, num, f;  
+f = 1;  
+num = document.getElementById("num").value;  
+console.log(num);
+for(i = 1; i <= num; i++)    
+{  
+    f = f * i;  
+}  
+i--;  
+
+document.getElementById("paragra").innerHTML = "The factorial of  the number " + i + " is: " + f ;  
+}
+</script>
+</body>
+</html>
